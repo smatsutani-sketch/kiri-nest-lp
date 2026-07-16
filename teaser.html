@@ -81,17 +81,17 @@
   .feature p { text-align: left; font-size: 13px; margin: 0; }
 
   /* paulownia list: one per row, boxed, with vertical side label */
-  .paulownia-row { display: flex; align-items: stretch; gap: 16px; max-width: 420px; margin: 4px auto 0; }
+  .paulownia-row { display: flex; align-items: stretch; gap: 14px; max-width: 420px; margin: 4px auto 0; }
   .spec-grid { display: flex; flex-direction: column; gap: 10px; flex: 1; min-width: 0; }
   .spec-grid div {
     font-size: 14.5px; font-weight: 600; color: var(--sub); text-align: center;
-    border: 1.5px solid rgba(201,146,46,0.55); border-radius: 8px; padding: 12px 10px;
+    border: 1.5px solid rgba(201,146,46,0.55); border-radius: 8px; padding: 12px 4px;
     background: rgba(201,146,46,0.06);
   }
   .vertical-label {
     writing-mode: vertical-rl; text-orientation: mixed;
-    font-family: 'Noto Serif JP', serif; font-size: 15px; font-weight: 700;
-    color: var(--amber); letter-spacing: 0.15em; flex-shrink: 0;
+    font-family: 'Noto Serif JP', serif; font-size: 22px; font-weight: 700;
+    color: var(--amber); letter-spacing: 0.3em; flex-shrink: 0; flex-basis: 56px;
     display: flex; align-items: center; justify-content: center;
   }
 
@@ -100,8 +100,8 @@
   .data-img-wrap img { width: 100%; display: block; }
   .humid-zones { position: absolute; inset: 0; display: flex; }
   .humid-zone {
-    flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
-    text-align: center; padding: 10px 4px; font-size: 11.5px; line-height: 1.5; color: #fff;
+    flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+    text-align: center; padding: 22px 4px 10px; font-size: 11.5px; line-height: 1.5; color: #fff;
     border-right: 1px solid rgba(255,255,255,0.25);
   }
   .humid-zone:last-child { border-right: none; }
@@ -377,7 +377,6 @@
       <div class="spec-table reveal">
         <div class="row"><div class="k">外寸</div><div class="v">W330×D180<br>×H218mm</div></div>
         <div class="row"><div class="k">内寸</div><div class="v">W303×D152<br>×H182mm</div></div>
-        <div class="row"><div class="k">素材</div><div class="v">桐材、<br>中国産桐材</div></div>
         <div class="row"><div class="k">板厚</div><div class="v">約13.5mm</div></div>
         <div class="row"><div class="k">窓</div><div class="v">アクリル<br>(額縁式)</div></div>
         <div class="row"><div class="k">仕上げ</div><div class="v">蜜蝋仕上げ</div></div>
