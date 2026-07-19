@@ -109,7 +109,7 @@ src="https://www.facebook.com/tr?id=1292821122494768&ev=PageView&noscript=1"
   .feature p { text-align: left; font-size: 13px; margin: 0; }
 
   /* paulownia list: one per row, boxed, with vertical side label */
-  .paulownia-row { display: flex; align-items: stretch; gap: 14px; max-width: 420px; margin: 4px auto 0; }
+  .paulownia-row { display: flex; flex-direction: column; gap: 14px; max-width: 420px; margin: 4px auto 0; }
   .spec-grid { display: flex; flex-direction: column; gap: 10px; flex: 1; min-width: 0; }
   .spec-grid div {
     font-size: 14.5px; font-weight: 600; color: var(--sub); text-align: center;
@@ -117,10 +117,8 @@ src="https://www.facebook.com/tr?id=1292821122494768&ev=PageView&noscript=1"
     background: rgba(201,146,46,0.06);
   }
   .vertical-label {
-    writing-mode: vertical-rl; text-orientation: mixed;
-    font-family: 'Noto Serif JP', serif; font-size: 22px; font-weight: 700;
-    color: var(--amber); letter-spacing: 0.3em; flex-shrink: 0; flex-basis: 56px;
-    display: flex; align-items: center; justify-content: center;
+    font-family: 'Noto Serif JP', serif; font-size: 20px; font-weight: 700;
+    color: var(--amber); letter-spacing: 0.12em; text-align: center;
   }
 
   /* data image with 3-zone humidity overlay */
@@ -346,6 +344,7 @@ src="https://www.facebook.com/tr?id=1292821122494768&ev=PageView&noscript=1"
       <h3 class="tag reveal">WHY PAULOWNIA</h3>
       <h2 class="reveal">なぜ、桐なのか。</h2>
       <div class="paulownia-row">
+        <div class="vertical-label reveal">桐の5つの特徴</div>
         <div class="spec-grid">
           <div class="reveal">気密性が高い</div>
           <div class="reveal">軽くて割れにくい</div>
@@ -353,7 +352,6 @@ src="https://www.facebook.com/tr?id=1292821122494768&ev=PageView&noscript=1"
           <div class="reveal">調湿性に優れる</div>
           <div class="reveal">虫が苦手とされる、腐りにくい素材</div>
         </div>
-        <div class="vertical-label reveal">桐の5つの特徴</div>
       </div>
       <p class="reveal" style="margin-top: 22px;">カメラを守るための要素を多く持つ素材だから、<br>私たちは桐を選びました。</p>
       <p class="reveal" style="font-size: 12px; color: #8d8071; margin-top: 10px;">※素材の一般的な特性としての記載です。本製品での実証データに基づくものではありません。</p>
